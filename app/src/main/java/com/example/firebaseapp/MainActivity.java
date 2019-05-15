@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 Firebase mRefChild = mRef.child("Name");
                 mRefChild.setValue("Dilshan");
 
-            }
+            }   
         });
     }
 }
