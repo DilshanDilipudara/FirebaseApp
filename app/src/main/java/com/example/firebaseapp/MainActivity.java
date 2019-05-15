@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private Firebase mRef;
     @Override
 
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Firebase mRefChild = mRef.child("Name");
                 mRefChild.setValue("Dilshan");
+
             }
         });
     }
